@@ -1,0 +1,25 @@
+.gallerie{
+    width: 351px;
+    height: 228.63px;
+   
+
+}
+
+.title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16.8286px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.images_gallerie{
+    width: 351px;
+    height: 200.52px;
+    background: #C4C4C4;
+    border-radius: 15px;
+   
+}
+

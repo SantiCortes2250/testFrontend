@@ -1,0 +1,46 @@
+.main_dashboard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+
+   
+}
+
+.bestSellingbg{
+    display: none;
+}
+
+
+.container_barChart{
+    display: none;
+
+}
+
+
+
+.container_chartbest{
+    width: 350.61px;
+    height: 371.69px;
+   
+}
+
+.container_barChart{
+    width: 350.61px;
+    height: 371.69px;
+}
+
+.container_chartbest img{
+    width: 100%;
+    height: 100%;
+}
+
+.container_barChart img{
+    width: 100%;
+    height: 100%;
+    
+}

@@ -1,14 +1,14 @@
-import React from "react"
-
+import React from "react";
+import Nav from "./components/Layouts/Nav";
+import MainDashboard from "./components/Layouts/MainDashboard";
 
 function App() {
-
-
   return (
-    <>
-      <h1>Prueba Tecnica</h1>
-    </>
-  )
+    <div className="container_app">
+      <Nav/>
+      <MainDashboard />
+    </div>
+  );
 }
 
-export default App
+export default App;

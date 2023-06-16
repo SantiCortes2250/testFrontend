@@ -1,0 +1,25 @@
+.contend_charts{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.contend_charts img{
+    width: 365px;
+    height: 181.68px;
+}
+.chartPie{
+    display: none;
+}
+
+.chartLine{
+    display: none;
+}
+
+.chartMovile{
+    
+}
+
+
+
+
