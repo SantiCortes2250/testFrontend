@@ -1,25 +1,28 @@
-.contend_charts{
-    display: flex;
-    flex-direction: column;
- 
+.contend_charts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.contend_charts img{
-    width: 365px;
-    height: 181.68px;
+.chartProgress {
+  width: 100%;
 }
-.chartPie{
-    display: none;
-}
-
-.chartLine{
-    display: none;
+.chartWave {
+  width: 100%;
 }
 
-.chartMovile{
-    
+.chartMovile {
+  width: 87%;
+  height: 250px;
+  background: #2f363d;
+  box-shadow: 0px 14.7092px 28.1927px rgba(62, 73, 84, 0.04);
+  border-radius: 15px;
 }
 
+.chartPie {
+  display: none;
+}
 
-
-
+.chartLine {
+  display: none;
+}

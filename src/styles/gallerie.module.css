@@ -1,25 +1,31 @@
-.gallerie{
-    width: 351px;
-    height: 228.63px;
-   
+.gallerie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  width: 100%;
+ 
 
 }
 
-.title{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16.8286px;
-    line-height: 25px;
-    text-align: center;
-    color: #FFFFFF;
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16.8286px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
 }
 
-.images_gallerie{
-    width: 351px;
-    height: 200.52px;
-    background: #C4C4C4;
-    border-radius: 15px;
-   
+.images_gallerie {
+  width: 85%;
+  height: 230px;
+  background: #c4c4c4;
+  border-radius: 15px;
 }
 
+
+@media(min-width: 500px){
+
+}
