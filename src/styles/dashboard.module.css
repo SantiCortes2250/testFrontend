@@ -1,9 +1,20 @@
 .main_dashboard {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   padding: 10px 10px 30px 10px;
+}
+
+.first_chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second_chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .bestSellingbg {
@@ -11,12 +22,10 @@
 }
 
 .container_barChart {
- 
   display: none;
 }
 
 .container_chartbest {
- 
   width: 95%;
 }
 
@@ -35,64 +44,57 @@
   height: 100%;
 }
 
-
-
-
 @media (min-width: 600px) {
-  .chartSelling{
+  .chartSelling {
     display: none;
   }
 
   .container_chartbest {
-   
     height: 70%;
+
   }
 
   .bestSellingbg {
     display: block;
-
   }
 
-  .container_barChart{
-    display: block;
+  .container_barChart {
+    display: flex;
+    
   }
-
 }
 
-
 @media (min-width: 1200px) {
+  .first_chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .second_chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
   .main_dashboard {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto auto auto;
-    grid-gap: 0;
-  
-   
+    display: flex;
+    flex-direction: row;
   }
 
   .container_chartbest {
+    height: 100%;
     width: 100%;
-    height: 100%;
-    grid-column: 1 ;
-    grid-row: 1 / span 2;
-    height: 100%;
+  
+
   }
 
-  .container_barChart{
+  .container_barChart {
     width: 100%;
-    height: 100%;
-    
+   
+ 
   }
-
-  .container_barChart img {
-
-    height: 100%;
-  }
-
-
-
-
-
 
 
 }
