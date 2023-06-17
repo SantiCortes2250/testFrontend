@@ -17,6 +17,12 @@
 
 .name_profile {
   display: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .btn_Profile {
@@ -24,4 +30,35 @@
   border: none;
   cursor: pointer;
   margin-left: 7px;
+}
+
+@media (min-width: 600px) {
+  .name_profile {
+    display: block;
+  }
+
+  .profile {
+    align-items: center;
+    grid-gap: 10px;
+    width: 120px;
+  }
+}
+
+@media (min-width: 900px) {
+  .profile {
+    width: 150px;
+    height: 46px;
+    grid-gap: 15px;
+  }
+
+  .proflile_picture {
+    width: 46px;
+    height: 46px;
+  }
+
+  .name_profile {
+    font-size: 16px;
+  }
+
+
 }

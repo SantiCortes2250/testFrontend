@@ -1,7 +1,10 @@
 .btns_notification {
   display: flex;
   position: absolute;
-  right: 100px;
+  grid-gap: 10px;
+  right: 110px;
+  
+  
 }
 
 .btns_notification button {
@@ -10,11 +13,12 @@
   background: #2f363d;
   border-radius: 12px;
   border: none;
+  cursor: pointer;
 }
 
 .btns_notification button img {
-  width: 18.26px;
-  height: 18.26px;
+  width: 13px;
+  height: 13px;
 }
 
 .iconChat {
@@ -29,7 +33,70 @@
   position: absolute;
   width: 10.43px;
   height: 10.43px;
-  margin-top: -10px;
+  margin-top: -14px;
   background: #d9b75f;
   border-radius: 50%;
+}
+
+.span_notiP {
+  position: absolute;
+  width: 10.43px;
+  height: 10.43px;
+  margin-top: -14px;
+  margin-left: 4px;
+  background: #647280;
+  border-radius: 50%;
+}
+
+@media (min-width: 600px) {
+
+
+  .btns_notification {
+    border-right: rgba(247, 247, 247, 0.03) solid 1px;
+    padding-right: 20px;
+    
+    right: 160px;
+  }
+
+  .iconChat {
+    display: block;
+  }
+
+  .iconPromos {
+    display: block;
+  }
+  
+}
+
+@media (min-width: 900px) {
+  .btns_notification {
+   
+    right: 195px;
+    
+    
+  }
+
+  .btns_notification button {
+    width: 46px;
+    height: 46px;
+  }
+
+  .span_noti {
+    margin-left: 4px;
+    margin-top: -15px;
+    
+  }
+  
+  .span_notiP {
+    margin-left: 4px;
+    margin-top: -15px;
+ 
+  }
+
+  .btns_notification button img {
+    width: 18.26px;
+    height: 18.26px;
+  }
+  
+
 }

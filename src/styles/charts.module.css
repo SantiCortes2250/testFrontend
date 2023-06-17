@@ -2,13 +2,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  
 }
 
 .chartProgress {
   width: 100%;
+
+ 
 }
 .chartWave {
   width: 100%;
+ 
 }
 
 .chartMovile {
@@ -20,9 +25,43 @@
 }
 
 .chartPie {
+  width: 100%;
+ 
   display: none;
 }
 
 .chartLine {
+  width: 100%;
+ 
   display: none;
+}
+
+
+@media (min-width: 600px) {
+  .contend_charts {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .chartPie {
+    display: block;
+  }
+  
+  .chartLine {
+    display: block;
+  }
+
+  .chartMovile{
+    display: none;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .contend_charts {
+    width: 100%;
+    height: 100%;
+    
+  }
+
 }

@@ -4,12 +4,11 @@
   align-items: center;
   margin-top: 25px;
   width: 100%;
- 
 
 }
 
 .title {
-  font-family: "Poppins";
+
   font-style: normal;
   font-weight: 300;
   font-size: 16.8286px;
@@ -25,7 +24,33 @@
   border-radius: 15px;
 }
 
+@media (min-width: 600px) {
+  .images_gallerie {
+    width: 90%;
+    height: 300px;
+  }
+}
 
-@media(min-width: 500px){
+@media (min-width: 1200px) {
+  .gallerie {
+    display: block;
+    grid-column: 2;
+    grid-row: 2 / span 2;
+    height: 100%;
+    
+  }
 
+  .title {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+  }
+
+  .images_gallerie {
+    width: 93%;
+    height: 85%;
+    margin-left: 25px;
+    
+  }
 }

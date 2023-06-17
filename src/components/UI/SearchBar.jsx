@@ -5,7 +5,7 @@ import styles from "../../styles/searchbar.module.css";
 const SearchBar = () => {
   return (
     <form className={styles.input_search}>
-      <input type="text" placeholder="" />
+      <input type="text" placeholder="Search here"/>
       <button type="submit">
         <img src={iconSearch} alt="Search" />
       </button>

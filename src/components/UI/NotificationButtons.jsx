@@ -18,7 +18,7 @@ const NotificationButtons = () => {
       </button>
       <button className={style.iconPromos}>
         <img src={iconPromos} alt="iconPromos" />
-        <span></span>
+        <span className={style.span_notiP}></span>
       </button>
     </div>
   )

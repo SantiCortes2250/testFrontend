@@ -19,7 +19,7 @@ const Nav = () => {
         <Profile />
       </div>
       <div className={styles.breadcrumb}>
-        <p>Dashboard/</p>
+        <p>Dashboard /</p>
       </div>
     </div>
   );
