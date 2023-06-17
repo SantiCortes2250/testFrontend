@@ -30,11 +30,10 @@
 
   .input_search input::placeholder {
     padding-left: 7px;
-    color: #B9B9B9;
-
+    color: #b9b9b9;
   }
 
-  .input_search button{
+  .input_search button {
     height: 100%;
     display: flex;
     justify-content: center;
@@ -50,7 +49,4 @@
   .input_search {
     width: 40%;
   }
-
-
-
 }

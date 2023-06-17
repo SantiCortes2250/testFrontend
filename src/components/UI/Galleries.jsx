@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import style from "../../styles/gallerie.module.css";
-import img from "../../assets/images/barChartbg.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -24,7 +23,6 @@ const Galleries = () => {
   return (
     <div className={style.gallerie}>
       <h2 className={style.title}>Event Galleries</h2>
-
       <Swiper
         navigation={true}
         modules={[Navigation]}

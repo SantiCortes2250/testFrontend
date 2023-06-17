@@ -5,7 +5,7 @@ import MainDashboard from "./components/Layouts/MainDashboard";
 function App() {
   return (
     <div className="container_app">
-      <Nav/>
+      <Nav />
       <MainDashboard />
     </div>
   );

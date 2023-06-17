@@ -21,15 +21,12 @@
   display: none;
 }
 
-.container_barChart {
-  display: none;
-}
-
 .container_chartbest {
   width: 95%;
 }
 
 .container_barChart {
+  display: none;
   width: 95%;
   height: 50%;
 }
@@ -51,7 +48,6 @@
 
   .container_chartbest {
     height: 70%;
-
   }
 
   .bestSellingbg {
@@ -60,7 +56,6 @@
 
   .container_barChart {
     display: flex;
-    
   }
 }
 
@@ -86,15 +81,9 @@
   .container_chartbest {
     height: 100%;
     width: 100%;
-  
-
   }
 
   .container_barChart {
     width: 100%;
-   
- 
   }
-
-
 }

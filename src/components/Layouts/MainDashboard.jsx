@@ -25,15 +25,12 @@ const MainDashboard = () => {
         <Charts />
       </div>
       <div className={style.second_chart}>
-      <div className={style.container_barChart}>
-        <img src={barChartbg} alt="barChartbg" className={style.barChartbg} />
-      </div>
-      
-      <Galleries />
+        <div className={style.container_barChart}>
+          <img src={barChartbg} alt="barChartbg" className={style.barChartbg} />
+        </div>
 
+        <Galleries />
       </div>
-      
-     
     </div>
   );
 };

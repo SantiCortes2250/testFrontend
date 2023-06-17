@@ -1,9 +1,8 @@
-import React from 'react'
-import iconNotification from '../../assets/images/iconNotification.png'
-import iconChat from '../../assets/images/iconChat.png'
-import iconPromos from '../../assets/images/iconPromos.png'
-import style from '../../styles/notificationsbtn.module.css'
-
+import React from "react";
+import iconNotification from "../../assets/images/iconNotification.png";
+import iconChat from "../../assets/images/iconChat.png";
+import iconPromos from "../../assets/images/iconPromos.png";
+import style from "../../styles/notificationsbtn.module.css";
 
 const NotificationButtons = () => {
   return (
@@ -21,7 +20,7 @@ const NotificationButtons = () => {
         <span className={style.span_notiP}></span>
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default NotificationButtons
+export default NotificationButtons;

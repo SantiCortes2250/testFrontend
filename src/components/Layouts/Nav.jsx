@@ -1,20 +1,24 @@
 import React from "react";
 import styles from "../../styles/nav.module.css";
-import MenuButton from "../UI/MenuButton";
 import Logo from "../../assets/images/Logo.png";
+import iconMenu from "../../assets/images/iconMenu.png";
+import iconSettings from "../../assets/images/iconSettings.png";
 import SearchBar from "../UI/SearchBar";
-import BtnSettings from "../UI/BtnSettings";
 import NotificationButtons from "../UI/NotificationButtons";
-import Profile from "../UI/profile";
+import Profile from "../UI/Profile";
 
 const Nav = () => {
   return (
     <div className={styles.nav_container}>
       <div className={styles.main_nav}>
-        <MenuButton />
+        <button className={styles.btn_menu}>
+          <img src={iconMenu} alt="Menu" />
+        </button>
         <img src={Logo} alt="Logo" className={styles.img_logo} />
         <SearchBar />
-        <BtnSettings />
+        <button className={styles.btn_settings}>
+          <img src={iconSettings} alt="Settings" />
+        </button>
         <NotificationButtons />
         <Profile />
       </div>

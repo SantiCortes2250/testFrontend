@@ -49,6 +49,7 @@
 
   .images_gallerie {
     width: 93%;
+    min-height: 85%;
     margin-left: 25px;
   }
 }
